@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- INITIAL MESSAGE ---
     function loadInitialChat() {
-        const initialAIResponse = "💡 Tip: Click the lightbulb icon to toggle Reasoning Mode.\n\nOn: Best for Coding, Math, Science, and Medical questions (Note: Medical answers might be incorrect always consult your doctor!)\n\nOff: For simpler, more straightforward responses.";
+        const initialAIResponse = "💡 Tip: Click the lightbulb icon to toggle Reasoning Mode.\n\nOn: Best for Coding, Math, Science, and Medical questions (Note: Medical answers might be incorrect always consult your doctor!)\n\nOff: For simpler, more straightforward responses.\n\n(Developer: Jaymark Cordial)";
         displayMessage(initialAIResponse, "ai");
     }
 

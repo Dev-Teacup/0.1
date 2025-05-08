@@ -130,3 +130,29 @@ header {
     margin-right: 1px;
 }
 
+@media (max-width: 420px) {
+
+    }
+    /* allow the input bar to wrap to two lines if needed */
+    #input-area {
+      flex-wrap: wrap;
+    }
+    /* make the text input take full width on its own line */
+    #user-input {
+      flex: 1 1 100%;
+      margin-bottom: 8px;
+      font-size: 0.9em;
+    }
+    /* shrink the circular buttons a bit */
+    #input-area button {
+      width: 36px;
+      height: 36px;
+      font-size: 1em;
+    }
+    /* make the “reason” pill a bit smaller too */
+    #reason-btn {
+      padding: 5px 10px;
+      font-size: 0.8em;
+    }
+  
+  

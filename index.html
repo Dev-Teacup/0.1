@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AITECHS AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="Logo.png" alt="AITECHS AI Logo" id="logo">
+    </header>
+
+    <main id="chat-container">
+        </main>
+
+    <div id="input-area-container">
+        <div id="error-message" class="hidden">Please fill in the input field.</div>
+        <div id="input-area">
+            <button id="attach-file-btn" title="Attach file">
+                <span class="icon">+</span>
+            </button>
+            <input type="file" id="file-input" style="display: none;">
+
+            <button id="reason-btn" title="Toggle Reasoning API">
+                <span class="icon"></span> 💡
+            </button>
+
+            <input type="text" id="user-input" placeholder="Ask anything...">
+
+            <button id="send-btn" title="Send">
+                <span class="icon">↑</span>
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
